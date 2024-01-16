@@ -21,8 +21,8 @@ driver.get("https://helpdesk.evolutiongaming.com/nevos/selfservice/#login")
 
 su_quest = input("Are you super user?")
 if su_quest == "admin":
-    login = "q.kikava@gmail.com"
-    password = "Lucifer69@."
+    login = ""
+    password = "@."
 
 else:
     login = input("Enter mail: ")
